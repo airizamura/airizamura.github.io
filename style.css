@@ -1,18 +1,25 @@
 body {
-  margin: 0;
-  background: #020202;
-  cursor: crosshair;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
 }
-canvas{display:block}
+
+.container {
+    text-align: center;
+}
+
 h1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-family: "Source Sans Pro";
-  font-size: 2em;
-  font-weight: 900;
-  -webkit-user-select: none;
-  user-select: none;
+    font-size: 3em;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
 }
