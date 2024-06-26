@@ -5,7 +5,7 @@ var c = document.createElement('canvas'),
     hw = w / 2, // half-width
     hh = h / 2,
     opts = {
-        strings: ['HAPPY', 'BIRTHDAY!'],
+        strings: ['HAPPY BIRTHDAY BEATRIZ'],
         charSize: 30,
         charSpacing: 35,
         lineHeight: 40,
@@ -46,7 +46,7 @@ var c = document.createElement('canvas'),
         balloonAddedRadian: -1,
     },
     calc = {
-        totalWidth: opts.charSpacing * Math.max(opts.strings[0].length, opts.strings[1].length)
+        totalWidth: opts.charSpacing * opts.strings[0].length
     },
 
     Tau = Math.PI * 2,
