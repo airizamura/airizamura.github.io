@@ -46,7 +46,7 @@ var c = document.createElement('canvas'),
         balloonAddedRadian: -1,
     },
     calc = {
-        totalWidth: opts.charSpacing * Math.max(opts.strings[0].length, opts.strings[1].length)
+        totalWidth: opts.charSpacing * opts.strings[0].length
     },
 
     Tau = Math.PI * 2,
